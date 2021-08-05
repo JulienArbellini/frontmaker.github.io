@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 nav{
@@ -12,7 +13,7 @@ nav{
     min-height: 8vh;
     font-family: 'Poppins', sans-serif ;
     font-size: 20px;
-    background-color: #5d4954;
+    background-color: #101010;
 }
 
 .logo{
@@ -114,5 +115,66 @@ nav{
 #top{
     height: 500px;
     width: 100%;
-    background: #123b4a;
+    background: #51717e;
 }
+
+#parallax1{
+    background: url('../img/landscape1.jpg');
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#mid{
+    height: 500px;
+    width: 100%;
+    background: #9b888c;
+}
+
+#parallax2{
+    background: url('../img/landscape2.jpg');
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#mid2{
+    height: 500px;
+    width: 100%;
+    background: #113b4a;
+}
+
+#parallax3{
+    background: url('../img/landscape3.jpg');
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#bottom{
+    height: 500px;
+    width: 100%;
+    background: #37331f;
+}
+
+.container {
+    height: 70vh;
+}
+.container img {
+width: 100%;
+position: absolute;
+height: 110vh;
+object-fit: cover;
+z-index: -1;
+}
+.main-title {
+position: absolute;
+top: 4%;
+left: 50%;
+font-size: 6rem;
+transform: translate(-50%, -30%);
+}
+  

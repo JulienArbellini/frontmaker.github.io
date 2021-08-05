@@ -5,6 +5,10 @@
   <title>Titre de la page</title>
   <link rel="stylesheet" href="../css/style.css">
   <link href="http://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link
+      href="https://fonts.googleapis.com/css?family=Oswald:700|Poppins"
+      rel="stylesheet"
+    />
   <script src="script.js"></script>
 </head>
 <body>
@@ -23,14 +27,30 @@
       </div>
   </nav>
   <main>
-    <div id="top"></div>
-    <div id="parallax1"></div>
-    <div id="mid"></div>
-    <div id="parallax2"></div>
-    <div id="bottom"></div>
-    <div id="parallax3"></div>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis porro aliquid sequi labore illo voluptatem, expedita veritatis officiis, velit quidem dolore! Hic neque labore autem veritatis aperiam vel fugit aliquam, illum distinctio error consequuntur inventore aspernatur placeat ab debitis repellendus mollitia nobis molestias, voluptatibus maxime perspiciatis, odit adipisci. Deserunt, aspernatur! Error accusamus doloribus in reprehenderit modi eaque? Optio ad eveniet eius hic? Cumque quibusdam iusto ipsa quo blanditiis dolorem veniam recusandae quasi! Consectetur obcaecati aperiam laborum, dolorem blanditiis provident odit. Recusandae nobis quidem, exercitationem voluptatum rerum cupiditate? Blanditiis, in eos. Libero et voluptates nostrum dignissimos magni saepe beatae commodi dolores.
+    <section>
+      <div class="container">
+        <h2 class="main-title">Explore.</h2>
+        <img src="../img/bg1.png" class="bg1" alt="" />
+        <img src="../img/girl1.png" class="girl" alt="" />
+        <img src="../img/rock1.png" class="rock" alt="" />
+      </div>
+      <div id="top" class='content'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis modi rem id consectetur dolore accusamus! Cupiditate blanditiis beatae officiis? Mollitia illo, rerum fuga deserunt minima perspiciatis eius id voluptate earum animi et ab soluta repudiandae nobis possimus sit reprehenderit accusantium?</div>
+      <div id="parallax1"></div>
+      <div id="mid">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio et ex architecto.</div>
+      <div id="parallax2"></div>
+      <div id="mid2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi recusandae at necessitatibus tempore ducimus temporibus nam ex, commodi dolore! Sapiente numquam qui delectus rem.
+      </div>
+      <div id="parallax3"></div>
+      <div id="bottom">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus doloremque libero quidem at quisquam!</div>
+    </section>
   </main>
+  <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+      integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+      crossorigin="anonymous"
+    ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.js"></script>
   <script src='../js/app.js'></script>
 </body>
 </html>
