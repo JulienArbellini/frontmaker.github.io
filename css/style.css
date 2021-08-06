@@ -161,20 +161,39 @@ nav{
 }
 
 .container {
-    height: 70vh;
+  height: 100vh;
 }
 .container img {
-width: 100%;
-position: absolute;
-height: 110vh;
-object-fit: cover;
-z-index: -1;
+  width: 100%;
+  position: absolute;
+  height: 110vh;
+  object-fit: cover;
+  z-index: -1;
 }
 .main-title {
-position: absolute;
-top: 4%;
-left: 50%;
-font-size: 6rem;
-transform: translate(-50%, -30%);
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  font-size: 6rem;
+  transform: translate(-50%, -30%);
 }
-  
+
+.content {
+  width: 100%;
+  background: rgb(24, 24, 24);
+  min-height: 100vh;
+  z-index: 2;
+  position: absolute;
+}
+.content-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 60vh;
+  text-align: center;
+}
+
+.text {
+  padding: 2rem 20rem;
+  font-size: 1.1rem;
+}
