@@ -34,8 +34,8 @@ const parallax = () =>{
     .to(".girl", 10, { y: -200 }, "-=10")
     .fromTo(".bg1", { y: -50 }, { y: 0, duration: 10 }, "-=10")
     .to(".content", 10, { top: -100 }, "-=10")
-    // .fromTo(".content-images", { opacity: 0 }, { opacity: 1, duration: 3 })
-    // .fromTo(".text", { opacity: 0 }, { opacity: 1, duration: 3 });
+    .fromTo(".content-images", { opacity: 0 }, { opacity: 1, duration: 5 })
+    .fromTo(".text", { opacity: 0 }, { opacity: 1, duration: 5 });
 
     let scene = new ScrollMagic.Scene({
     triggerElement: "section",
